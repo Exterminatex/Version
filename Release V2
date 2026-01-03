@@ -25,7 +25,7 @@ local Raft = Window:CreateTab("⛺ Survive On a Raft", nil)
 local Aura = Window:CreateTab("🎲 Aura Craft", nil)
 local Me = Window:CreateTab("🦈 Fish Me", nil)
 local Paint = Window:CreateTab("🏹 Paintball 2", nil)
-local Climb = Window:CreateTab("🪜 Climb And Jump Tower", nil)
+local Climb = Window:CreateTab("🧗 Climb And Jump Tower", nil)
 
 
 Rayfield:Notify({
