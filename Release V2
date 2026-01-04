@@ -23,7 +23,7 @@ local Gef = Window:CreateTab("😶 GEF", nil)
 local One = Window:CreateTab("📦 One Block", nil)
 local Raft = Window:CreateTab("⛺ Survive On a Raft", nil)
 local Aura = Window:CreateTab("🎲 Aura Craft", nil)
-local Me = Window:CreateTab("🦈 Fish Me", nil)
+local Me = Window:CreateTab("🦈 Mancing Yuk", nil)
 local Paint = Window:CreateTab("🏹 Paintball 2", nil)
 local Climb = Window:CreateTab("🧗 Climb And Jump Tower", nil)
 
@@ -413,15 +413,7 @@ local Paragraph = Me:CreateParagraph({Title = "⚠️ Information", Content = "U
 local Button = Me:CreateButton({
    Name = "Mizukage Hub",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/gilangirchas/DB-discord-/refs/heads/main/Mizukage.lua"))()
-   end,
-})
-
-local MainSection = Me:CreateSection("No Keyless")
-local Button = Me:CreateButton({
-   Name = "Synce Hub",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/Cuhila/FishMe/refs/heads/main/FishMeSecret.lua'))()
+   loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/4dfa8a7c12a07e4e18a2496bf09a9bc8e2a95c1eac5ac03d3e8d5740ce642ebc/download"))()
    end,
 })
 
